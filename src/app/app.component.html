@@ -1,0 +1,15 @@
+<div class="header">headerino 
+  <button (click)="openSidenav()">
+    <img src="./assets/menu.svg" alt="">
+  </button> 
+</div>
+
+<div class="container">
+  <div class="main">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit rerum, quidem unde laudantium obcaecati hic numquam exercitationem. Enim esse ex officiis quo aliquam cumque nesciunt tempora hic nobis in!
+  </div>
+  
+  <app-drawer [visibilityState]="dialogVisibility"></app-drawer>
+</div>
+
+<router-outlet></router-outlet>

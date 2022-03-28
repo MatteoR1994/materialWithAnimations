@@ -1,0 +1,7 @@
+<!-- <div [@openClosed]="openState">FILTER
+    <img src="./assets/arrow.svg" alt="">
+</div> -->
+<div class="filt" (click)="open(); rotateArrow()" [@openClosed]="openState">
+    FILTER
+    <img src="./assets/arrow.svg" alt="" [@upDown]="arrowState">
+</div>
